@@ -15,6 +15,7 @@ class Dog
   def self.print_all
     @@all.each do |dogs_name| @@all << dogs_name
     end
+    dogs_name
   end 
   
   def self.clear_all
